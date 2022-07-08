@@ -20,7 +20,6 @@ Route::get('/', function () {
 
 Route::post('/saveItemRoute', [TodoListController::class, 'saveItem'])->name('saveItem');
 
-//test
 /*
 Route::get('/saveItem', function () {
     return view('welcome');
