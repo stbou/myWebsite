@@ -24,6 +24,9 @@ Route::get('/', [TodoListController::class, 'index']);
 
 Route::post('/saveItemRoute', [TodoListController::class, 'saveItem'])->name('saveItem');
 
+
+Route::post('/markComplete/{id}', [TodoListController::class, 'markComplete'])->name('markComplete');
+
 /*
 Route::get('/saveItem', function () {
     return view('welcome');
