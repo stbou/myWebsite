@@ -7,7 +7,13 @@ use App\models\ListItem;
 
 class TodoListController extends Controller
 {
-    //
+    
+    // Return all the values from the table 
+    public function index() {
+        return view('welcome', ['listItems' => ListItem::all()]);
+    }
+
+
     public function saveItem(Request $request) {
         //info(json_encode($request->all()));
         
@@ -17,7 +23,9 @@ class TodoListController extends Controller
         $newListItem->save();
 
 
-        return view('welcome');
+        //return view('welcome',  ['listItems' => ListItem::all()]);
+        return redirect('/');
+
     }
 
 }
