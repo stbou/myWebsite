@@ -48,8 +48,16 @@
             <button type="submit">Save Item</button>
 
             </form>
+            <br>
+
+            <!-- _blank : open in a new tab
+                 _self : open on the sane tab
+                 _top : open the page in the full body of the window
+                 _parent :  -->
+            <a class="text-amber-600 hover:background-color: yellow;"  target="_blank" href="https://google.ca">Google.com</a>
             
-            <--! Commentaire test-->
         </div>
+        
+      
     </body>
 </html>
