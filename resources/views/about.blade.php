@@ -1,10 +1,19 @@
+<?php
+    echo "Hello world!";
+    ///Users/stephaneboulanger/Code/todoList/resources/views/newWindow.php
+
+
+
+    echo "Hi my name is stbou"; 
+
+?>
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
 
-        <title>Laravel</title>
+        <title>About</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,52 +29,12 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-
-            <div style="color: white;">
-            <h1>todo list </h1>
-
-            @foreach ($listItems as $listItem)
-            <div class="flex" style="align-items: center;">
-                <p>Item: {{ $listItem->name }} </p>
-                <form method="post" action="{{ route('markComplete', $listItem->id) }}" accept-charset="UTF-8">
-                    {{ csrf_field()}}
-                <button type="submit" style="max-height: 25px; margin-left: 20px;">Mark Complete</button> 
-                </form>
-
-            </div>    
-            @endforeach
+    <body>
 
 
-            <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
-                {{ csrf_field()}}
-
-
-        
-            <label for ="listItem">New Todo Item</label> </br>
-            <input type="text" name="listItem">  </br>
-            <button type="submit">Save Item</button>
-
-            </form>
-            <br>
-
-            <!-- _blank : open in a new tab
-                 _self : open on the sane tab
-                 _top : open the page in the full body of the window
-                 _parent :  -->
-            <a class="text-amber-600 hover:background-color: green;"  target="_blank" href="https://google.ca">Google.com</a>
-        
-
-            <br>
-                
-            
-            <a href=""></a>
-            <br>
-            <a href="{{URL::to('/about')}}">About</a>
-            <a href=""></a>
-        </div>
-        
-      
     </body>
 </html>
+
+
+
+
