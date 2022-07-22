@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -59,11 +60,32 @@
 
             <br>
                 
-            
+            <style>
+                ul {
+                    list-style-type: none;
+                    margin: 50;
+                    padding: 50;
+                    color: aqua;
+                }
+            </style>
+
+
+            <div>
+
+            <ul>
             <a href=""></a>
             <br>
             <a href="{{URL::to('/about')}}">About</a>
             <a href=""></a>
+            </ul>
+
+            </div>
+            
+            
+
+            
+
+
         </div>
         
       
