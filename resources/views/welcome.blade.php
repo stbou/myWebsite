@@ -44,13 +44,10 @@
             <label>Password : </label>
             <input type="text" name="listItem" ></input><br><br>
 
-            <!-- <label>Confirm password : </label>
-            <input type="text" name="listItem" ></input><br><br><br> -->
-            
-            <div>
+            <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
+                {{ csrf_field()}}
             <button type ="submit" class="button" style="vertical-align:middle"><span>Submit </span>
-            </div>
-            
+            </form>
 
 
             <!-- <h3>todo list </h3>
@@ -73,7 +70,7 @@
             <input type="text" name="listItem">  </br>
             <button type="submit">Save Item</button>
 
-            </form>-->
+            </form> -->
 
             <!-- _blank : open in a new tab
                  _self : open on the sane tab

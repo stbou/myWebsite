@@ -27,6 +27,8 @@ Route::post('/saveItemRoute', [TodoListController::class, 'saveItem'])->name('sa
 
 Route::post('/markComplete/{id}', [TodoListController::class, 'markComplete'])->name('markComplete');
 
+//Route::post('/saveItemRoute', [TodoListController::class, 'addUser'])->name('addUser');
+
 // Acces to about Page 
 Route::get('/about', function() {
     return view ('about');
