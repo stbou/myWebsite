@@ -35,8 +35,15 @@
             <h1>Welcome to my website ! <a style="color:darkslateblue" ></a></h1>
         </hdr>
 
+            <label>Username : </label><br>
+            <label>Password : </label><br>
+            <label>Confirm password : </label><br>
 
-            <h3>todo list </h3>
+
+
+
+
+            <!-- <h3>todo list </h3>
 
             @foreach ($listItems as $listItem)
             <div class="flex" style="align-items: center;">
@@ -47,19 +54,17 @@
                 </form>
 
             </div>    
-            @endforeach
-
+            @endforeach 
 
             <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
                 {{ csrf_field()}}
-
-
         
             <label for ="listItem">New Todo Item</label> </br>
             <input type="text" name="listItem">  </br>
             <button type="submit">Save Item</button>
 
-            </form>
+            </form>-->
+
             <br>
 
             <!-- _blank : open in a new tab
