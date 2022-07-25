@@ -43,7 +43,7 @@
             <input type="text" name="listItem" ></input><br><br>
 
             <label>Password : </label>
-            <input type="text" name="listItem" ></input><br><br>
+            <input type="text" name="listPassword" ></input><br><br>
 
             
             <button type ="submit" class="button" style="vertical-align:middle"><span>Submit </span>
