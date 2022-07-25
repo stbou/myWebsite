@@ -34,7 +34,10 @@
             <div style="color: white;">
             
             <h1>Welcome to my website ! <a style="color:darkslateblue" ></a></h1>
-        
+            
+            
+            <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
+                {{ csrf_field()}}
 
             <label>Username : </label>
             <input type="text" name="listItem" ></input><br><br>
@@ -42,33 +45,12 @@
             <label>Password : </label>
             <input type="text" name="listItem" ></input><br><br>
 
-            <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
-                {{ csrf_field()}}
+            
             <button type ="submit" class="button" style="vertical-align:middle"><span>Submit </span>
             </form>
 
 
-            <!-- <h3>todo list </h3>
-
-            @foreach ($listItems as $listItem)
-            <div class="flex" style="align-items: center;">
-                <p>Item: {{ $listItem->name }} </p>
-                <form method="post" action="{{ route('markComplete', $listItem->id) }}" accept-charset="UTF-8">
-                    {{ csrf_field()}}
-                <button type="submit" style="max-height: 25px; margin-left: 20px;">Mark Complete</button> 
-                </form>
-
-            </div>    
-            @endforeach 
-
-            <form method="post" action="{{ route('saveItem') }}" accept-charset="UTF-8">
-                {{ csrf_field()}}
-        
-            <label for ="listItem">New Todo Item</label> </br>
-            <input type="text" name="listItem">  </br>
-            <button type="submit">Save Item</button>
-
-            </form> -->
+            
 
             <!-- _blank : open in a new tab
                  _self : open on the sane tab
@@ -78,7 +60,7 @@
         
 
             <br>
-            
+
             <div>
 
             <ul>
