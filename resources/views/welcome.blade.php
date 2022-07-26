@@ -62,7 +62,7 @@
             <br>
 
             <div>
-
+            <!-- link to about -->
             <ul>
             <a href=""></a>
             <br>
