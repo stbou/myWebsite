@@ -21,17 +21,14 @@ class TodoListController extends Controller
     // }
 
     public function saveItem(Request $request) {
-        //info(json_encode($request->all()));
         
         $newListItem = new ListItem;
         $newListItem->name = $request->listItem;
         $newListItem->password = $request->listPassword;
-        $newListItem->is_subscribe = 0;
+        $newListItem->is_subscribe = 1;
         $newListItem->save();
 
         return view('welcome',  ['listItems' => ListItem::all()]);
-        // return redirect('/');
-
     }
 
 

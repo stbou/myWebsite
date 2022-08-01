@@ -41,16 +41,13 @@
 
             <label>Username : </label>
             <input type="text" name="listItem" ></input><br><br>
-
+            
             <label>Password : </label>
-            <input type="text" name="listPassword" ></input><br><br>
+            <input type ="password" name="listPassword" ></input><br><br>
 
             
             <button type ="submit" class="button" style="vertical-align:middle"><span>Submit </span>
             </form>
-
-
-            
 
             <!-- _blank : open in a new tab
                  _self : open on the sane tab
