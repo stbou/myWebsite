@@ -25,6 +25,7 @@ class TodoListController extends Controller
         $newListItem = new ListItem;
         $newListItem->name = $request->listItem;
         $newListItem->password = $request->listPassword;
+        $newListItem->mail = $request->listMail;
         $newListItem->is_subscribe = 1;
         $newListItem->save();
 

@@ -41,9 +41,14 @@
 
             <label>Username : </label>
             <input type="text" name="listItem" ></input><br><br>
-            
+
+            <label>E-mail : </label>
+            <input type="text" name="listMail" ></input><br><br>
+    
             <label>Password : </label>
             <input type ="password" name="listPassword" ></input><br><br>
+
+        
 
             
             <button type ="submit" class="button" style="vertical-align:middle"><span>Submit </span>
