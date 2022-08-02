@@ -28,13 +28,7 @@
         
             <h3>You can visit my github at <a style="color:blueviolet" target="_blank" href="https://github.com/stbou">github.com/stbou</a></h3>
 
-            <!-- _blank : open in a new tab
-                 _self : open on the sane tab
-                 _top : open the page in the full body of the window
-                 _parent :  -->
-            <!-- <a target="_blank" href="https://github.com/stbou">github.com</a> -->
         
-
             <br>
 
             <link rel="stylesheet" type="text/css" href="{{ url('/css/welcome.css') }}" >
