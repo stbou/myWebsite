@@ -50,7 +50,7 @@
             <link rel="stylesheet" type="text/css" href="{{ url('/css/welcome.css') }}" >
 
             <div>
-<!-- test -->
+                
             <ul>
             <a href=""></a>
             <br>
