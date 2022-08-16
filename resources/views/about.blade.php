@@ -26,15 +26,20 @@
             
         <div style="color: white;">
             
-            <!-- Display the video -->
+
+            <!-- Link to youtube channel -->
+            <h3>Computer science infographics project | winter 2022<a style="color:blueviolet"></a></h3>
             <div class="video-responsive"> 
                 <iframe width="560" height="315" 
                 src="https://www.youtube.com/embed/cWTVQz7wAbI" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <h3>You can visit my github at <a style="color:blueviolet" target="_blank" href="https://github.com/stbou">github.com/stbou</a></h3>
+            <!-- Link to my github-->
+            <h3>You can visit my github | <a style="color:blueviolet" target="_blank" href="https://github.com/stbou">github.com/stbou</a></h3>
 
-        
+            <!-- Link to my linkedIn -->
+            <h3>Check my LinkedIn | <a style="color:blueviolet" target="_blank" href="https://www.linkedin.com/in/stéphane-boulanger-a6112422b/">linkedin.com/in/stéphaneboulanger</a></h3>
+            
             <br>
 
             <link rel="stylesheet" type="text/css" href="{{ url('/css/welcome.css') }}" >
