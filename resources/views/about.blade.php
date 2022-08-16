@@ -25,7 +25,13 @@
 
             
         <div style="color: white;">
-        
+            
+            <!-- Display the video -->
+            <div class="video-responsive"> 
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/cWTVQz7wAbI" frameborder="0" allowfullscreen></iframe>
+            </div>
+
             <h3>You can visit my github at <a style="color:blueviolet" target="_blank" href="https://github.com/stbou">github.com/stbou</a></h3>
 
         

@@ -63,7 +63,7 @@
             <br>
 
             <div>
-            <!-- link to about test hello mac pro -->
+            <!-- link to about -->
             <ul>
             <a href=""></a>
             <br>
