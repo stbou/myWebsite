@@ -39,11 +39,11 @@
             <!-- Link to my network --> 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet"   href="{{ url('/css/logo.css') }}" >
-            <fa><a href="https://www.linkedin.com/in/stéphane-boulanger-a6112422b" class="fa fa-linkedin"></a></fa>            
-            <fa><a href="https://www.youtube.com/channel/UCUDFsTHnPXQTCHWUdtTV0-A" class="fa fa-youtube"></a></fa>
-            <fa><a href="https://www.facebook.com/stephane.boulanger.31" class="fa fa-facebook"></a></fa>            
-            <fa><a href="https://twitter.com/StphaneBoulange" class="fa fa-twitter"></a></fa>            
-            <fa><a href="https://github.com/stbou" class="fa fa-github" style="font-size:36px"></a></fa>
+            <fa><a href="https://www.linkedin.com/in/stéphane-boulanger-a6112422b"  target="_blank" class="fa fa-linkedin"></a></fa>            
+            <fa><a href="https://www.youtube.com/channel/UCUDFsTHnPXQTCHWUdtTV0-A"  target="_blank" class="fa fa-youtube"></a></fa>
+            <fa><a href="https://www.facebook.com/stephane.boulanger.31"  target="_blank" class="fa fa-facebook"></a></fa>            
+            <fa><a href="https://twitter.com/StphaneBoulange"  target="_blank" class="fa fa-twitter"></a></fa>            
+            <fa><a href="https://github.com/stbou"  target="_blank" class="fa fa-github" style="font-size:36px"></a></fa>
 
             <br>
            

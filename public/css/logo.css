@@ -1,11 +1,10 @@
 fa {
   padding: 20px;
   font-size: 40px;
-  width: 50px;
+  width: 70px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-
 }
 
 fa:hover {
@@ -15,11 +14,15 @@ fa:hover {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  border-radius: 10%;
+  width: 30px;
+  height: 40px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius: 10%;
 }
 
 .fa-google {
@@ -30,11 +33,16 @@ fa:hover {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 10%;
+  width: 40px;
 }
 
 .fa-youtube {
   background: #bb0000;
   color: white;
+  border-radius: 10%;
+  width: 40px;
+  height: 40px;
 }
 
 .fa-instagram {
