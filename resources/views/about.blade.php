@@ -25,7 +25,7 @@
             
         <div style="color: white;">
             
-
+            
             <!-- Link to youtube channel -->
             <h3>Computer science infographics project | winter 2022<a style="color:blueviolet"></a></h3>
             <div class="video-responsive"> 
