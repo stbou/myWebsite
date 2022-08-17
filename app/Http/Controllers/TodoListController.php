@@ -32,5 +32,11 @@ class TodoListController extends Controller
         return view('welcome',  ['listItems' => ListItem::all()]);
     }
 
+    public function saveClick(Request $request) {
+
+        //$newListClick = new ListClick;
+
+    }
+
 
 }
