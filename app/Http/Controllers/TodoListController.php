@@ -32,6 +32,7 @@ class TodoListController extends Controller
         return view('welcome',  ['listItems' => ListItem::all()]);
     }
 
+    // function to get the number of click on each media logo 
     public function saveClick(Request $request) {
 
         //$newListClick = new ListClick;
